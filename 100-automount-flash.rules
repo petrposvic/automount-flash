@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="block", KERNEL=="sde1" SYMLINK+="usbflash", RUN+="/root/automount-flash.sh"
